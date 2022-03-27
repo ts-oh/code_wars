@@ -1,2 +1,2 @@
 # code_wars
-My personal solutions to Codewars kyu 
+My personal solutions to Codewars Kata 
