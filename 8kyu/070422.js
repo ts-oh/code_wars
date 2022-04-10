@@ -104,9 +104,13 @@ stringy(5) => '10101'
 Solutions:
 
 function stringy(size) {
-  var str='';
-  for( var i=1; i<=size; i++ )
-    str+=i%2;
-  return str;
+  string = "1";
+  for (var i = 0; i < size - 1; i++) {
+    if(i % 2 == 0)
+      string += "0";
+    else
+      string += "1";
+  }
+  return string;
 }
 */
